@@ -63,5 +63,6 @@ module OmniAuth
 
     autoload :XAuth,              'omniauth/strategies/xauth'
     autoload :Instapaper,         'omniauth/strategies/xauth/instapaper'
+    autoload :TwitterXAuth,       'omniauth/strategies/xauth/twitter_xauth'
   end
 end
